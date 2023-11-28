@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9914050e-daa9-440b-b192-29ccdbc3eea0" name="Changes" comment="From spring intlzr adopted">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/spring6di/Spring6DiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/spring6di/controllers/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/spring6di/Spring6DiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/spring6webapp/Spring6WebappApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/spring6webapp/Spring6WebappApplicationTests.java" beforeDir="false" />
+    <list default="true" id="9914050e-daa9-440b-b192-29ccdbc3eea0" name="Changes" comment="Spring Context simple example">
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/spring6di/Spring6DiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/spring6di/Spring6DiApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +72,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/C5354646/JavaProjects/SpringCourseUdemy/spring-6-di&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Spring6DiApplicationTests.testAutowireOfController">
     <configuration name="Spring6DiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guru.springframework.spring6di.Spring6DiApplication" />
       <module name="spring-6-di" />
@@ -93,8 +86,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring6DiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-6-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.spring6di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.spring6di" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.spring6di.Spring6DiApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring6DiApplicationTests.testAutowireOfController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-6-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.spring6di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.spring6di" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.spring6di.Spring6DiApplicationTests" />
+      <option name="METHOD_NAME" value="testAutowireOfController" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Spring6DiApplicationTests.testAutowireOfController" />
+        <item itemvalue="JUnit.Spring6DiApplicationTests" />
         <item itemvalue="Application.Spring6DiApplication" />
       </list>
     </recent_temporary>
@@ -132,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701146851407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spring Context simple example">
+      <option name="closed" value="true" />
+      <created>1701154182254</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701154182254</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +184,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Project created" />
     <MESSAGE value="From spring intlzr adopted" />
-    <option name="LAST_COMMIT_MESSAGE" value="From spring intlzr adopted" />
+    <MESSAGE value="Spring Context simple example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Context simple example" />
   </component>
 </project>
