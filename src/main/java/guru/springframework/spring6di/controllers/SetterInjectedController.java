@@ -12,6 +12,7 @@ public class SetterInjectedController {
     public void setGreetingService(GreetingService greetingService) {
         System.out.println("Setter is utilized");
         this.greetingService = greetingService;
+        System.out.println(greetingService.sayGreeting());
     }
 
     public String sayHello() {
